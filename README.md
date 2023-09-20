@@ -1,2 +1,2 @@
-# aternos-dark-theme
-Ultra Dark theme For Aternos (a well known website for minecraft free servers)
+# #Aternos Ultra Dark Theme
+Aternos is a well-known website for Minecraft free servers.
