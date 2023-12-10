@@ -1,1 +1,195 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
+/* Main Background color */
+section {
+  background: #000000;
+}
+/* Default Colors */
+:root {
+    --color-dark: #131313;
+    --color-light: #f2f2f2;
+    --color-main: #19ba19;
+    --color-danger: #f91c1c;
+    --color-success: #19ba19;
+    --clor-warn: #f97f12;
+    --color-loading: #4c4c4c;
+    --color-dark-mode: #161c21;
+    --color-dark-text: #b5b5b5;
+    --color-dark-mark: #3f3f3f;
+    --color-dark-hover: #1f1f1f;
+    --color-light-fade: #A4A4A4;
+}
+
+/* ADS REMOVE */
+.ad-dfp {
+  height: 0;
+  min-height:0;
+  display:none
+}
+/*Disable if problem*/
+.responsive-leaderboard, .ad-dfp{
+  height: 0;
+  min-height:0;
+  display:none
+}
+/* Side bar Ads */
+.sidebar {
+  /* padding: 0px;
+  height: 200px;
+  min-height:0px; */
+  pointer-events: none;
+  display:none
+}
+/* Top Ads */
+#placement-top-leaderboard
+{
+  min-width: 0;
+  pointer-events: none;
+  display:none
+}
+
+/*Other Ads*/
+#placement-account-bottom, #placement-options-leaderboard, .responsive-leaderboard-large, .vm-skin-right-ads-container , .vm-skin-left-ads-container ,  .vm-footer {
+  display:none
+}
+/*Optional Disabled*/
+.server-tutorials {
+  display:none
+}
+
+.config-option-input {
+  color: #f2f2f2;
+  background-color: #1f1f1f;
+}
+
+div div label , .copyright , .last-time-refreshed {
+  color: #f2f2f2;
+}
+
+.start-activity , h4 , a , label, .btn-main , .btn , .server-info-box-title, .server-info-box-body, .help-center-article, .server-ip , .text-input , .status , .server-info-box-footer-autoupdate , .config-option-input , .config-option-output, .mclist-options , .console , .log , .path, .file , .world , .backup-quota, .backup-create , .list-item , .list-input , .navigation-server , .servercard , .status-console , .live-status-box , .account-setting , .account-setting-input-group , .language-input-selector , .account-notifications-list-item , .language-select , .go-input-group , .player-details-header , .player-details-health , .player-details-control, .player-details-inventory, .player-details-information, .player-details-statistics,
+.player-details-buttons , .inventory , header , .ender-chest-inventory , main , .select , .option , .select-options , .slot , .statuslabel-label , .live-status-box-label , .live-status-box-value , .share-dropdown-body , .teleport-wrapper , .creatable-select-input, .creatable-select-options , .focus , input , .teleport-wrapper , .creatable-select-input, .creatable-select-options , .focus , input , checkbox , h1 , .software-version-title-button , .version , .config-options-file , .mcformat-background , .mcformat-toolbar-wrapper, .backup-drive-account , .splash-footer , .player-details-danger-zone
+{
+  border-radius: 20px;
+  font-family: Montserrat;
+}
+
+.inventory, .ender-chest-inventory {
+  padding: 20px;
+}
+
+.level-info, .level-warning {
+  font-size: 15px;
+}
+.toggle label {
+  width: 100%;
+}
+
+label::before {
+  border-radius: 20px;
+}
+img
+{
+  border-radius: 8px;
+}
+
+body , .centertext , .row {
+  background-color: #000000;
+}
+
+.row, .splash-footer , .icontext-icon , .front-software-group , .tetris-row-element , .front-software, .plugin-search {
+  border-radius: 20px;
+}
+
+h1 , h3 , .u-hide-tiny , .fa-globe-americas , .fab , .number-label, .js-countup , .team-member-text-desc {
+  color: #19ba19;
+}
+.mod-signup , .btn-blue {
+  background-color: #19ba19;
+}
+
+.centertext-text , .copyright , .header-exaroton-link-text-main , .header-exaroton-link-text-sub ,.header-exaroton-link-by {
+  visibility: hidden;
+  position: relative;
+}
+
+.centertext-text:after , .copyright:after , .header-exaroton-link-text-main:after
+{
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "Made by Nighmare👻";
+}
+.header-exaroton-link-by::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 11px;
+  content: "Theme for Aternos";
+}
+
+.header-exaroton-link-text-sub::after {
+  visibility: visible;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 15px;
+  content: "Star my Projects on Github 😊";
+}
+
+.splash-footer {
+  background-color: #1f1f1f;
+}
+
+.team-member-avatar-img {
+  border-color: #19ba19;
+}
+
+.btn-orange , .btn-red {
+  background-color: #19ba19;
+  color: #f2f2f2;
+}
+.fa-gamepad , .fa-cubes {
+  color: #f2f2f2;
+}
+splash-menu-left {
+  color: #f2f2f2;
+}
+
+.opnav-logo-img {
+  filter: hue-rotate(270deg);
+}
+
+td , .plugin-description {
+  color: #f2f2f2;
+}
+
+.sub-nav {
+  background-color: #0f0f0f;
+}
+
+.article {
+  color: #f2f2f2;
+}
+/*Extra Columns at end*/
+.help-center-articles {
+  display: none;
+}
+
+.navigation {
+  border-top-right-radius: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.files-folder-count {
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.path-bar {
+  border-radius: 25px;
+  
+}
